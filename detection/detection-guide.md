@@ -18,3 +18,13 @@ sudo tail -f /var/log/nginx/access.log
 The following command counts requests by source IP and displays the highest-volume sources first:
 
 sudo awk '{print $1}' /var/log/nginx/access.log | sort | uniq -c | sort -nr | head
+
+
+Detection Workflow
+
+Traffic
+→ Nginx Logs
+→ Identify Abnormal Requests
+→ Investigate Source
+→ Apply Mitigation
+→ Verify Results
