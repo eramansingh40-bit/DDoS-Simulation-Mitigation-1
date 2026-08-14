@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Authorized lab server only
-TARGET="http://192.168.56.10"
+TARGET="http://192.168.236.0"
 
 echo "Starting controlled HTTP traffic test..."
 
