@@ -1,7 +1,7 @@
 before-mitigation.png:
 
 Nginx running
-traffic test
+traffic test : response 200 successfull always .
 access logs
 high request activity
 
